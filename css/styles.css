@@ -1,0 +1,131 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de body */
+
+body{
+    background-color: #dfd8d8;
+    color: hsla(200,0%,0%,.7);
+}
+
+.h1{
+    display: none;
+}
+
+/* estilos de main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2{
+    display: flex;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    align-items: center;
+}
+
+main img{
+    width: 70%;
+    align-content: center
+}
+
+main img:hover{
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+main div p{
+    padding: 2rem;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+/* estilos de section */
+
+
+.contenedor{
+    font-weight: 10%;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+h3{
+    font-size: 90%;
+    text-shadow: 10px;
+    text-overflow: clip;
+    justify-content: center;
+}
+
+section img{
+    height: 8rem;
+}
+
+/* estilos de footer */
+
+footer{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px){
+
+    ..h1{
+        display: none;
+    }
+
+    main p{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .contenedor{
+        display:flex;
+        justify-content: space-around;
+    }
+}
+    
+@media screen and (min-width:1024px){
+
+    /* estilos de header */
+
+    .h1{
+        padding: 0.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main p{
+        padding: 2rem;
+        font-weight: bold;
+        text-decoration: overline;
+    }
+
+    .contenedor{
+        font-weight: 10%;
+        display: flex;
+        gap: 4rem;
+        justify-content: space-around;
+    }
+
+    footer{
+        justify-content: flex-start;
+        padding: 2rem;
+        margin: 2rem;
+    }
+}
+
+
+/* estilos pagina 2 */
+
